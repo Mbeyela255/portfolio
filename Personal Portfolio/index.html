@@ -4,13 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Emmanuel Mbeyela</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Welcome to Emmanuel Mbeyela's Page</h1>
-    <p>This is a simple HTML page created as an example.</p>
-    <p>Feel free to explore and learn more about web development!</p>
+    <button id="mode-toggle">Dark Mode</button>
+     <!-- Header -->
+    <header>
+        <h1>Emmanuel Mbeyela</h1>
+        <nav>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
+    <!-- Main Content -->
+    <main>
+        <!-- Sidebar / Profile Picture -->
+        <aside>
+                <img src="images/profile.jpg" alt="Profile picture of Emmanuel" id="profile-pic" />
+        </aside>
+        <!-- About Me -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I’m a developer-in-training with a background in business founding, management, systems, and strategy consulting. My experience tackling complex operational challenges gives me a strong foundation for building tools that are not only functional, but business-smart. </p> 
+        <p>   As I grow in web development, I’m excited to merge technical skills with strategic thinking to create meaningful, scalable solutions.
+        </p>
+      </section>
+      <!-- Projects -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li>Project 1 – Mixed Messages</li>
+          <li>Project 2 – Personal Portfolio</li>
+        </ul>
+      </section>
+      <!-- Skills -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <div class="skill-icons">
+          <img src="images/html-icon.png" alt="HTML" />
+          <img src="images/css-icon.png" alt="CSS" />
+          <img src="images/js-icon.png" alt="JavaScript" />
+          <img src="images/github-icon.png" alt="GitHub" />
+        </div>
+      </section>
+      </main>
     <footer>
-        <p>&copy; 2023 Emmanuel Mbeyela</p>
+        <p>&copy; Made with ❤️ in the +255 🇹🇿 </p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
